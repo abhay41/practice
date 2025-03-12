@@ -22,7 +22,7 @@ def second_Element(arr):
     return [second_max,second_smallest]
 
 arr=[5,18,56,78,23,1,9]
-second_max,second_smallest=second_Element(ar)
+second_max,second_smallest=second_Element(arr)
 print("Highest number is:",max(arr))
 print("second highest number is:",second_max)
 print("smallest number is:",min(arr))
