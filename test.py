@@ -21,7 +21,7 @@ def second_Element(arr):
             
     return [second_max,second_smallest]
 
-arr=[5,3,7,2,3,4,2]
+arr=[5,3,7,3,4,15,20]
 second_max,second_smallest=second_Element(arr)
 print("Highest number is:",max(arr))
 print("second highest number is:",second_max)
